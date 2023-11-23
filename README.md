@@ -7,6 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Clone This Repo [Github](https://github.com/HimanshuAwasthi24/Deploying_React-Next_App_NGINX_Ubuntu.git)
 
+## Make sure you have node and npm installed on your system
+
 1) ### `git clone Gitub_Repo_URL`
 
 2) ### `cd project_directory`
@@ -49,18 +51,20 @@ server {
         }
 }
 
-8) ### `cd ../..`
+8) ### `sudo ln -s /etc/nginx/site-available/filename.conf /etc/nginx/sites-enabled/` 
+
+9) ### `cd ../..`
 
 hostname alias creation
-9) ### `vim hosts`
+10) ### `vim hosts`
      ### 127.0.0.1          your_domain
 
-10) ### `npm install pm2 -g`
+11) ### `npm install pm2 -g`
 
-11) ### `cd /var/www/your_project`
+12) ### `cd /var/www/your_project`
     ### `pm2 start npm --name "project_name" -- start `
 
-12) hit your domain_name on browser you should be able see the UI of your app
+13) hit your domain_name on browser you should be able see the UI of your app
 
 
 
