@@ -63,8 +63,12 @@ hostname alias creation
 
 12) ### `cd /var/www/your_project`
     ### `pm2 start npm --name "project_name" -- start `
+![Screenshot from 2023-11-23 13-06-09](https://github.com/HimanshuAwasthi24/Deploying_React-Next_App_NGINX_Ubuntu/assets/83570704/c48564b6-1caf-4e95-8de3-503177b5e49d)
 
 13) hit your domain_name on browser you should be able see the UI of your app
+
+14) ![Screenshot from 2023-11-23 13-05-40](https://github.com/HimanshuAwasthi24/Deploying_React-Next_App_NGINX_Ubuntu/assets/83570704/161d3782-30ad-485b-a091-a842fd2a391f)
+
 
 
 
