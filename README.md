@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Deploying_React-Next_App_NGINX_Ubuntu
 Deploying ReactJs/NextJs on VM Intances using NGINX on Linux
 =======
@@ -8,11 +7,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Clone This Repo [Github](https://github.com/HimanshuAwasthi24/Deploying_React-Next_App_NGINX_Ubuntu.git)
 
-### `git clone Gitub_Repo_URL`
+1) ### `git clone Gitub_Repo_URL`
 
-### `cd project_directory`
+2) ### `cd project_directory`
 
-### `npm install`
+3) ### `npm install`
 
-### `npm run build`
+4) ### `npm run build`
 
